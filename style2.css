@@ -1,0 +1,78 @@
+body {
+    width: auto;
+    height: auto;
+    /*border-style: solid;
+    border-width: 5px 10px; 5px top and bottom, 20px on the sides */
+    padding-top: 30px;
+    background-size: cover;
+}
+
+div, .hello2 {
+    border: 5px;
+    border-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.darken {
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(ranger-4df6c1b6.png);
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+.summarytitle {
+    text-align: center;
+}
+
+.theh1 {
+    color: white;    
+}
+
+.summary {
+    text-align: center;
+    color: white;
+}
+
+.hello {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 { color: #ffffff;
+    font-family: "Great Vibes", cursive;
+    font-size: 165px;
+    line-height: 160px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+
+p { 
+    color: white;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 45px;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    padding-top: 20px;
+}
+
+p.byline {
+    font-style: italic;
+    color: white;
+    font-size: 24px; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff;
+}
